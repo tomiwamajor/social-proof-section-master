@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(300, 24%, 96%);
+  background-image: url(/images/bg-pattern-top-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 600px;
+}
+
+.header {
+  width: 1200px;
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 70px;
+  display: flex;
+  margin-bottom: 70px;
+  justify-content: space-between;
+
+  @media only screen and (max-width: 1316px) {
+    flex-direction: column;
+  }
+
+  &__text {
+    flex: 0 0 60%;
+    font-family: "League Spartan", sans-serif;
+    padding-right: 60px;
+
+    @media only screen and (max-width: 1316px) {
+      flex: unset;
+      text-align: center;
+    }
+
+    &--head {
+      color: hsl(300, 43%, 22%);
+      font-weight: 700;
+      font-size: 60px;
+      padding-bottom: 20px;
+    }
+
+    &--paragraph {
+      color: hsl(303, 10%, 53%);
+      font-size: 20px;
+    }
+  }
+
+  &__rating {
+    margin-top: 40px;
+    flex: 0 0 40%;
+
+    @media only screen and (max-width: 1316px) {
+      flex: unset;
+      width: 100%;
+    }
+
+    &--review {
+      background-color: hsla(302, 10%, 53%, 0.273);
+      padding-top: 9px;
+      padding-bottom: 9px;
+      margin-bottom: 5px;
+      display: flex;
+      margin-bottom: 17px;
+      width: 300px;
+      border-radius: 7px;
+
+      @media only screen and (max-width: 1316px) {
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+      }
+    }
+
+    &--stars {
+      padding-left: 7px;
+      padding-right: 7px;
+    }
+
+    &--report {
+      background-color: hsla(302, 10%, 53%, 0.273);
+      padding-top: 9px;
+      padding-bottom: 9px;
+      margin-bottom: 5px;
+      display: flex;
+      transform: translateX(75px);
+      margin-bottom: 17px;
+      width: 300px;
+      border-radius: 7px;
+
+      @media only screen and (max-width: 1316px) {
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+        transform: translateX(0);
+      }
+    }
+    &--tech {
+      background-color: hsla(302, 10%, 53%, 0.273);
+      padding-top: 9px;
+      padding-bottom: 9px;
+      margin-bottom: 5px;
+      display: flex;
+      transform: translateX(170px);
+      width: 300px;
+      margin-bottom: 17px;
+      border-radius: 7px;
+
+      @media only screen and (max-width: 1316px) {
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+        transform: translateX(0);
+      }
+    }
+    &--star {
+    }
+
+    &--text {
+      font-family: "League Spartan", sans-serif;
+      color: hsl(300, 43%, 22%);
+      font-weight: 500;
+      font-size: 15px;
+      justify-content: center;
+      align-self: center;
+    }
+  }
+}
+
+.body {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "League Spartan", sans-serif;
+
+  @media only screen and (max-width: 1316px) {
+    flex-direction: column;
+  }
+
+  &__colton {
+    background-color: hsl(300, 43%, 22%);
+    padding: 40px;
+    flex: 0 0 28%;
+    border-radius: 10px;
+
+    @media only screen and (max-width: 1316px) {
+      flex: unset;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    &--image {
+      border-radius: 50%;
+      width: 40px;
+    }
+  }
+
+  &__image {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 15px;
+  }
+
+  &__verify {
+    justify-content: center;
+    align-self: center;
+    &--name {
+      color: hsl(0, 0%, 100%);
+      font-weight: 500;
+    }
+    &--verified {
+      color: hsl(333, 80%, 67%);
+    }
+  }
+
+  &__text {
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+  }
+
+  &__irene {
+    transform: translateY(15px);
+    background-color: hsl(300, 43%, 22%);
+    padding: 40px;
+    flex: 0 0 28%;
+    border-radius: 10px;
+
+    @media only screen and (max-width: 1316px) {
+      flex: unset;
+      width: 100%;
+      transform: translateY(0);
+      margin-bottom: 20px;
+    }
+  }
+  &__anne {
+    transform: translateY(30px);
+    background-color: hsl(300, 43%, 22%);
+    padding: 40px;
+    flex: 0 0 28%;
+    border-radius: 10px;
+
+    @media only screen and (max-width: 1316px) {
+      flex: unset;
+      width: 100%;
+      transform: translateY(0);
+      margin-bottom: 20px;
+    }
+  }
+}

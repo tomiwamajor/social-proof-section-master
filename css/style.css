@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #f7f2f7;
+  background-image: url(/images/bg-pattern-top-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 600px; }
+
+.header {
+  width: 1200px;
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 70px;
+  display: flex;
+  margin-bottom: 70px;
+  justify-content: space-between; }
+  @media only screen and (max-width: 1316px) {
+    .header {
+      flex-direction: column; } }
+  .header__text {
+    flex: 0 0 60%;
+    font-family: "League Spartan", sans-serif;
+    padding-right: 60px; }
+    @media only screen and (max-width: 1316px) {
+      .header__text {
+        flex: unset;
+        text-align: center; } }
+    .header__text--head {
+      color: #502050;
+      font-weight: 700;
+      font-size: 60px;
+      padding-bottom: 20px; }
+    .header__text--paragraph {
+      color: #937b92;
+      font-size: 20px; }
+  .header__rating {
+    margin-top: 40px;
+    flex: 0 0 40%; }
+    @media only screen and (max-width: 1316px) {
+      .header__rating {
+        flex: unset;
+        width: 100%; } }
+    .header__rating--review {
+      background-color: rgba(147, 123, 146, 0.273);
+      padding-top: 9px;
+      padding-bottom: 9px;
+      margin-bottom: 5px;
+      display: flex;
+      margin-bottom: 17px;
+      width: 300px;
+      border-radius: 7px; }
+      @media only screen and (max-width: 1316px) {
+        .header__rating--review {
+          width: 100%;
+          text-align: center;
+          flex-direction: column; } }
+    .header__rating--stars {
+      padding-left: 7px;
+      padding-right: 7px; }
+    .header__rating--report {
+      background-color: rgba(147, 123, 146, 0.273);
+      padding-top: 9px;
+      padding-bottom: 9px;
+      margin-bottom: 5px;
+      display: flex;
+      transform: translateX(75px);
+      margin-bottom: 17px;
+      width: 300px;
+      border-radius: 7px; }
+      @media only screen and (max-width: 1316px) {
+        .header__rating--report {
+          width: 100%;
+          text-align: center;
+          flex-direction: column;
+          transform: translateX(0); } }
+    .header__rating--tech {
+      background-color: rgba(147, 123, 146, 0.273);
+      padding-top: 9px;
+      padding-bottom: 9px;
+      margin-bottom: 5px;
+      display: flex;
+      transform: translateX(170px);
+      width: 300px;
+      margin-bottom: 17px;
+      border-radius: 7px; }
+      @media only screen and (max-width: 1316px) {
+        .header__rating--tech {
+          width: 100%;
+          text-align: center;
+          flex-direction: column;
+          transform: translateX(0); } }
+    .header__rating--text {
+      font-family: "League Spartan", sans-serif;
+      color: #502050;
+      font-weight: 500;
+      font-size: 15px;
+      justify-content: center;
+      align-self: center; }
+
+.body {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "League Spartan", sans-serif; }
+  @media only screen and (max-width: 1316px) {
+    .body {
+      flex-direction: column; } }
+  .body__colton {
+    background-color: #502050;
+    padding: 40px;
+    flex: 0 0 28%;
+    border-radius: 10px; }
+    @media only screen and (max-width: 1316px) {
+      .body__colton {
+        flex: unset;
+        width: 100%;
+        margin-bottom: 20px; } }
+    .body__colton--image {
+      border-radius: 50%;
+      width: 40px; }
+  .body__image {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 15px; }
+  .body__verify {
+    justify-content: center;
+    align-self: center; }
+    .body__verify--name {
+      color: white;
+      font-weight: 500; }
+    .body__verify--verified {
+      color: #ee68a4; }
+  .body__text {
+    color: white;
+    font-size: 16px; }
+  .body__irene {
+    transform: translateY(15px);
+    background-color: #502050;
+    padding: 40px;
+    flex: 0 0 28%;
+    border-radius: 10px; }
+    @media only screen and (max-width: 1316px) {
+      .body__irene {
+        flex: unset;
+        width: 100%;
+        transform: translateY(0);
+        margin-bottom: 20px; } }
+  .body__anne {
+    transform: translateY(30px);
+    background-color: #502050;
+    padding: 40px;
+    flex: 0 0 28%;
+    border-radius: 10px; }
+    @media only screen and (max-width: 1316px) {
+      .body__anne {
+        flex: unset;
+        width: 100%;
+        transform: translateY(0);
+        margin-bottom: 20px; } }

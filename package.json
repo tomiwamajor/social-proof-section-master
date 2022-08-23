@@ -1,0 +1,14 @@
+{
+  "name": "social-proof-section-master",
+  "version": "1.0.0",
+  "description": "social proof",
+  "main": "index.js",
+  "scripts": {
+    "social": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "adetomiwa",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
