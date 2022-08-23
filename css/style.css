@@ -28,7 +28,8 @@ body {
     @media only screen and (max-width: 1316px) {
       .header__text {
         flex: unset;
-        text-align: center; } }
+        text-align: center;
+        padding-right: 0; } }
     .header__text--head {
       color: #502050;
       font-weight: 700;
