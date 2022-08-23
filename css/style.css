@@ -34,6 +34,9 @@ body {
       font-weight: 700;
       font-size: 60px;
       padding-bottom: 20px; }
+      @media only screen and (max-width: 900px) {
+        .header__text--head {
+          font-size: 30px; } }
     .header__text--paragraph {
       color: #937b92;
       font-size: 20px; }
